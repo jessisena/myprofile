@@ -79,6 +79,27 @@ section{
 
 
 
+
+.my-btn{
+  color: #111;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color-light);
+}
+.my-btn.active, .my-btn:active, .show>.my-btn.dropdown-toggle {
+    background-color: var(--secondary-color-dark);
+    background-image: none;
+    border-color: var(--primary-white);
+}
+.my-btn.focus, .my-btn:focus {
+    box-shadow: 0 0 0 3px rgba(248,249,250,.5);
+}
+.my-btn:hover {
+    color: #111;
+    background-color: var(--secondary-color-dark);
+    border-color: var(--primary-white);
+}
+
 /*
 pallete
 http://paletton.com/#uid=53b0u0ketN-3+Zz9wUFiMEtmDvq
